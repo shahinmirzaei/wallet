@@ -1,0 +1,28 @@
+# بی‌توجهی به پوشه‌ها و فایل‌های build .NET
+**/bin/
+**/obj/
+
+# لاگ‌ها و خروجی‌های موقت
+**/*.log
+**/*.etl
+**/*.etl.json
+
+# پوشه‌های موقتی کاربران
+**/.vs/
+**/.vscode/
+
+# فایل‌های کاربری Rider و JetBrains
+**/.idea/
+
+# پیکربندی‌های محلی و رازها
+**/appsettings.Local.json
+**/appsettings.Development.Local.json
+
+# فایل‌های سیستم‌عامل
+.DS_Store
+Thumbs.db
+
+# فایل‌های تست کانتینر و Docker محلی
+**/TestResults/
+**/coverage/
+**/.docker/
